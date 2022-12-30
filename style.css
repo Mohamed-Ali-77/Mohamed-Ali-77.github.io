@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #eee;
+    padding: 20px;
+}
+@media (min-width: 700px) {
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+h3 {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+/* Add a border and rounded corners to the profile image */
+.profile-image {
+    border: 5px solid hsl(257, 91%, 45%);
+    border-radius: 50%;
+}
+
+/* Make the image responsive by using a max-width of 100% */
+.profile-image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Add a hover effect to the image */
+.profile-image:hover {
+    border-color: hsl(252, 90%, 45%);
+}
