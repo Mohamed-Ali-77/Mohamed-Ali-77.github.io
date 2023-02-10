@@ -2,21 +2,29 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #dbdfe6;
     }
 
 header {
-    background-color: #333;
+    background-color: #eee;
     color: white;
     padding: 20px;
 }
 
 h1 {
+    text-align: left;
+    color: #000000;
     margin: 0;
 }
 
+h2 {
+  text-align: center;
+  margin: 50px 0;
+}
 nav {
     background-color: #eee;
     padding: 20px;
+    text-align: center;
 }
 @media (min-width: 700px) {
 nav ul {
@@ -33,12 +41,12 @@ nav li {
 }
 
 nav a {
-    color: #333;
+    color: #000000;
     text-decoration: none;
 }
 
 main {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -68,84 +76,66 @@ footer {
   }
   
   /* Clear the float for the "Projects" section to ensure that it appears below the image */
-  #projects {
-    clear: both;
-  }
-  /* Add some padding to the "Projects" section to create space between the elements */
 #projects {
+    clear: both;
     padding: 20px;
-  }
-  
-  /* Add a background color to the "Projects" section */
-  #projects {
     background-color: #f5f5f5;
-  }
-  
-  /* Add a border to the "Projects" section */
-  #projects {
     border: 1px solid #ccc;
     border-radius: 5px;
-  }
-  
-  /* Add some margin to the "Projects" section to create space between it and the other sections */
-  #projects {
     margin-bottom: 20px;
   }
-  
-  /* Style the project titles */
-  #projects h3 {
-    font-size: 18px;
+
+#projects h3 {
+    font-size: 19px;
     font-weight: bold;
     margin-bottom: 10px;
   }
-  
-  /* Add a hover effect to the project titles */
-  #projects h3:hover {
-    color: #6a3093;
-  }
+
   
 /* Style the project description */
 #projects p {
     font-size: 14px;
     line-height: 1.5;
     margin-bottom: 10px;
+    
   }
   
-  /* Style the project screenshot */
-  #projects .project-screenshot {
+/* Style the project screenshot */
+#projects .project-screenshot {
     max-width: 100%;
     height: auto;
     border: 1px solid #ccc;
     border-radius: 5px;
   }
-  
-  /* Style the project highlights list */
-  #projects ul {
+
+/* Style the project highlights list */
+#projects ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    list-style-type: circle;
   }
+
   
-  /* Style the project highlights list items */
-  #projects li {
+/* Style the project highlights list items */
+#projects li {
     font-size: 14px;
     line-height: 1.5;
     margin-bottom: 10px;
   }
   
-  /* Style the project code or demo link */
-  #projects a {
+/* Style the project code or demo link */
+#projects a {
     color: #6a3093;
     text-decoration: none;
   }
   
-  /* Add a hover effect to the project code or demo link */
-  #projects a:hover {
+/* Add a hover effect to the project code or demo link */
+#projects a:hover {
     text-decoration: underline;
   }
     
-  
-  /* Add some padding to the "About" section to create space between the elements */
+/* Add some padding to the "About" section to create space between the elements */
 #about {
     padding: 20px;
   }
@@ -228,5 +218,10 @@ footer {
     text-decoration: underline;
   }
   
+  #projects h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
   
   
