@@ -6,14 +6,22 @@ body {
     }
 
 header {
+<<<<<<< HEAD
     background-color: #221c1c;
+=======
+    background-color: #eee;
+>>>>>>> main
     color: white;
     padding: 20px;
 }
 
 h1 {
     text-align: left;
+<<<<<<< HEAD
     color: #ffffff;
+=======
+    color: #000000;
+>>>>>>> main
     margin: 0;
 }
 
@@ -21,7 +29,10 @@ h2 {
   text-align: center;
   margin: 50px 0;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
 nav {
     background-color: #eee;
     padding: 20px;
@@ -94,6 +105,10 @@ footer {
     margin-bottom: 10px;
   }
 
+<<<<<<< HEAD
+=======
+  
+>>>>>>> main
 /* Style the project description */
 #projects p {
     font-size: 14px;
