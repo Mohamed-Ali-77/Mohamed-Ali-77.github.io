@@ -61,19 +61,172 @@ footer {
     padding: 20px;
     text-align: center;
 }
-/* Add a border and rounded corners to the profile image */
+/* Float the image to the left and add a margin to create space between the image and the text */
 .profile-image {
-    border: 5px solid hsl(257, 91%, 45%);
-    border-radius: 50%;
-}
-
-/* Make the image responsive by using a max-width of 100% */
-.profile-image {
+    float: left;
+    margin-right: 20px;
+  }
+  
+  /* Clear the float for the "Projects" section to ensure that it appears below the image */
+  #projects {
+    clear: both;
+  }
+  /* Add some padding to the "Projects" section to create space between the elements */
+#projects {
+    padding: 20px;
+  }
+  
+  /* Add a background color to the "Projects" section */
+  #projects {
+    background-color: #f5f5f5;
+  }
+  
+  /* Add a border to the "Projects" section */
+  #projects {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Add some margin to the "Projects" section to create space between it and the other sections */
+  #projects {
+    margin-bottom: 20px;
+  }
+  
+  /* Style the project titles */
+  #projects h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Add a hover effect to the project titles */
+  #projects h3:hover {
+    color: #6a3093;
+  }
+  
+/* Style the project description */
+#projects p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the project screenshot */
+  #projects .project-screenshot {
     max-width: 100%;
     height: auto;
-}
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style the project highlights list */
+  #projects ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the project highlights list items */
+  #projects li {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the project code or demo link */
+  #projects a {
+    color: #6a3093;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect to the project code or demo link */
+  #projects a:hover {
+    text-decoration: underline;
+  }
+    
+  
+  /* Add some padding to the "About" section to create space between the elements */
+#about {
+    padding: 20px;
+  }
+  
+  /* Add a background color to the "About" section */
+  #about {
+    background-color: #f5f5f5;
+  }
+  
+  /* Add a border to the "About" section */
+  #about {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Add some margin to the "About" section to create space between it and the other sections */
+  #about {
+    margin-bottom: 20px;
+  }
+  
+  /* Add a border and rounded corners to the profile image */
+  .profile-image {
+    border-radius: 50%;
+  }
+  
+  /* Make the image responsive by using a max-width of 300px */
+  .profile-image {
+    max-width: 300px;
+    height: 300px;
+  }
+  
+  /* Add a hover effect to the image */
+  .profile-image:hover {
+    border-color: #a044ff;
+  }
 
-/* Add a hover effect to the image */
-.profile-image:hover {
-    border-color: hsl(252, 90%, 45%);
-}
+  /* Add some padding to the "Contact" section to create space between the elements */
+#contact {
+    padding: 20px;
+  }
+  
+  /* Add a background color to the "Contact" section */
+  #contact {
+    background-color: #f5f5f5;
+  }
+  
+  /* Add a border to the "Contact" section */
+  #contact {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Add some margin to the "Contact" section to create space between it and the other sections */
+  #contact {
+    margin-bottom: 20px;
+  }
+  
+  /* Style the contact information list */
+  #contact ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the contact information list items */
+  #contact li {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the contact information links */
+  #contact a {
+    color: #6a3093;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect to the contact information links */
+  #contact a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  
